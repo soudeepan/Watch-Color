@@ -1,0 +1,230 @@
+*
+{
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+ body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.color
+{
+    background: -webkit-linear-gradient(149deg, rgba(244,0,103,1) 18%, rgba(174,47,172,1) 48%, rgba(91,103,253,1) 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.title
+{
+    
+    text-align: center;
+    font-size: 7vw;
+    width: 100vw;
+   padding: 40vh 10vw 160vh 10vw;
+    font-family: 'Abril Fatface', cursive;
+    background-color: black;
+    color: #ffffff;
+
+}
+.b1,.b2,.b3,.b4,.b5,.b6,.b7
+{
+    position: absolute;
+    height: 20vh;
+    width: 37vw;
+    text-align: center;
+    font-size:5vh;
+    padding: 5vw 5vh 5vw 5vh;
+    font-family: 'Concert One', cursive;
+
+}
+.b1
+{
+    font-size: 14vh;
+    top: 160vh;
+    left: 5vw;
+    
+}
+.b2
+{
+    top: 210vh;
+    right: 5vw;
+    height: 40vh;
+    width: 40vw;
+}
+.soudeepan
+{
+    font-size: 6vh;
+    background: -webkit-linear-gradient(149deg, rgba(244,0,103,1) 18%, rgba(174,47,172,1) 48%, rgba(91,103,253,1) 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.b3
+{
+    top: 350vh;
+    left: 5vw;
+}
+.simple
+{
+    font-size: 6vh;
+    font-family: 'Gloria Hallelujah', cursive;
+    background: -webkit-linear-gradient(169deg, rgba(249,255,0,1) 0%, rgb(32, 255, 2) 19%, rgba(8,209,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.b4
+{
+    top: 410vh;
+    right: 5vw;
+}
+.never
+{
+    font-size: 5vh;
+    font-family: 'Monoton', cursive;
+    color: rgb(255, 217, 0);
+}
+.b5
+{
+    top: 510vh;
+    left: 5vw;
+}
+.flow
+{
+    font-family: 'Nosifer', cursive;
+    background: -webkit-linear-gradient(160deg, rgb(33, 192, 189) 0%, rgba(0,0,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.b6
+{
+    top: 610vh;
+    right: 5vw;
+}
+.discover
+{
+    font-size: 7vh;
+    font-family: 'Permanent Marker', cursive;
+}
+.d{color: rgb(255, 0, 0);}
+.i{color: rgb(255, 136, 0);}
+.s{color: rgb(251, 255, 0);}
+.c{color: rgb(94, 255, 0);}
+.o{color: rgb(0, 255, 191);}
+.v{color: rgb(0, 47, 255);}
+.e{color: rgb(160, 0, 252);}
+.r{color: rgb(247, 0, 255);}
+
+.b7
+{
+    top: 710vh;
+    width: 40vw;
+   left: 30vw;
+   font-size: 9vh;
+}
+
+
+
+.circle
+{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 10%;
+    position: absolute;
+    transition: 0.2s;
+}
+.circle:hover
+{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    
+}
+
+.c1{background-color: rgb(255, 0, 0); top: 140vh; left: 120vw;}
+.c2{background-color: rgb(0, 26, 255); top: 180vh; right:120vw;}
+.c3{background-color: rgb(255, 0, 255); top: 210vh; left: 120vw;}
+.c4{background-color: rgb(238, 255, 0); top: 260vh; right: 120vw;}
+.c5{background-color: rgb(51, 255, 0); top: 300vh; left: 120vw;}
+.c6{background-color: rgb(140, 0, 255); top: 350vh; right: 120vw;}
+.c7{background-color: rgb(0, 217, 255); top: 390vh; left: 120vw;}
+.c8{background-color: rgb(255, 187, 0); top: 420vh; right: 120vw;}
+.c9{background-color: rgb(255, 0, 0); top: 450vh; left: 120vw;}
+.c10{background-color: rgb(25, 0, 255); top: 460vh; right: 120vw;}
+.c11{background-color: rgb(255, 0, 98); top: 490vh; left: 120vw;}
+.c12{background-color: rgb(0, 255, 64); top: 530vh; right: 120vw;}
+.c13{background-color: rgb(255, 251, 0); top: 570vh; left: 120vw;}
+.c14{background-color: rgb(183, 0, 255); top: 600vh; right: 120vw;}
+.c15{background-color: rgb(255, 0, 149); top: 640vh; left: 120vw;}
+.c16{background-color: rgb(255, 51, 0); top: 690vh; right: 120vw;}
+.c17{background-color: rgb(76, 0, 255); top: 700vh; left: 120vw;}
+
+.foot
+{
+    background-color: black;
+    position: absolute;
+    top: 750vh;
+    height: 10vh;
+    width: 100vw; 
+    padding: 2vh 5vw 2vh 5vw;
+    justify-content: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius:7px;
+}
+img
+{
+   width: 6vh;
+   color: #ffffff;
+   position: absolute;
+}
+.mail
+{
+    right: 5vw;
+}
+.yt
+{
+    left: 5vw;
+}
+.insta
+{
+    left: 48%;
+}
+
+#w
+{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+ 
+@media only screen and (max-width: 1000px) 
+{
+    .title{font-size: 6vh;}
+    .b1,.b2,.b3,.b4,.b5,.b6,.b7
+    {
+        font-size: 4vh;
+        width: 75vw;
+    }
+    .b1
+    {
+        font-size: 6vh;
+    }
+    .simple,.never,.flow,.soudeepan{
+        font-size: 4.3vh;
+    }
+    .discover{
+        font-size: 4.3vh ;
+    }
+    .b7{left: 10vw; font-size: 6vh;}
+
+}
